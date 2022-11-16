@@ -1,0 +1,100 @@
+@font-face {
+    font-family: charg;
+    src: url(https://demo.cmssuperheroes.com/themeforest/charg/wp-content/themes/charg/assets/fonts/font-theme/fonts/charg.eot?gxdzrf);
+    src: url(https://demo.cmssuperheroes.com/themeforest/charg/wp-content/themes/charg/assets/fonts/font-theme/fonts/charg.eot?gxdzrf#iefix)format('embedded-opentype'),url(https://demo.cmssuperheroes.com/themeforest/charg/wp-content/themes/charg/assets/fonts/font-theme/fonts/charg.ttf?gxdzrf)format('truetype'),url(https://demo.cmssuperheroes.com/themeforest/charg/wp-content/themes/charg/assets/fonts/font-theme/fonts/charg.woff?gxdzrf)format('woff'),url(https://demo.cmssuperheroes.com/themeforest/charg/wp-content/themes/charg/assets/fonts/font-theme/fonts/charg.svg?gxdzrf#charg)format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+[class^=charg-icon-],[class*=" charg-icon-"] {
+    font-family: charg!important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.charg-icon-plug:before {
+    content: "\e900"
+}
+
+.charg-icon-electric-car:before {
+    content: "\e901"
+}
+
+.charg-icon-plug-1:before {
+    content: "\e902"
+}
+
+.charg-icon-placeholder:before {
+    content: "\e903"
+}
+
+.charg-icon-plug-2:before {
+    content: "\e904"
+}
+
+.charg-icon-plug-3:before {
+    content: "\e905"
+}
+
+.charg-icon-battery:before {
+    content: "\e906"
+}
+
+.charg-icon-plug-4:before {
+    content: "\e907"
+}
+
+.charg-icon-plug-5:before {
+    content: "\e908"
+}
+
+.charg-icon-charging:before {
+    content: "\e909"
+}
+
+.charg-icon-electric-car-1:before {
+    content: "\e90a"
+}
+
+.charg-icon-charging-station:before {
+    content: "\e90b"
+}
+
+.charg-icon-plug-6:before {
+    content: "\e90c"
+}
+
+.charg-icon-charging-station-1:before {
+    /* content:"\e90d"; */
+}
+
+.charg-icon-car:before {
+    content: "\e90e"
+}
+
+.charg-icon-plug-7:before {
+    content: "\e90f"
+}
+
+.charg-icon-electric-car-2:before {
+    content: "\e910"
+}
+
+.charg-icon-plug-8:before {
+    content: "\e911"
+}
+
+.charg-icon-electric-car-3:before {
+    content: "\e912"
+}
+
+.charg-icon-plug-9:before {
+    content: "\e913"
+}
