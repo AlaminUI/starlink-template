@@ -115,15 +115,7 @@ header {
   border-bottom: 1px solid rgba(234, 234, 234, 0.18);
 }
 
-.header-sticky {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  z-index: 1;
-  background: var(--sticky-bg);
-  animation: 0.95s ease 0s 1 normal forwards running headerSlideDown;
-}
+
 
 @-webkit-keyframes headerSlideDown {
   0% {
@@ -154,6 +146,26 @@ a.navbar-brand img {
 }
 
 @media (min-width: 992px) {
+  .header-sticky {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: 9999;
+    background: #fff;
+    animation: 0.95s ease 0s 1 normal forwards running headerSlideDown;
+  }
+  .header-sticky img.white-logo {
+    display: none;
+}
+
+img.black-logo {
+    display: none;
+}
+
+.header-sticky img.black-logo {
+    display: block;
+}
   li.nav-item {
       position: relative;
   }
@@ -170,7 +182,9 @@ a.navbar-brand img {
       padding-top: 0px;
       padding-bottom: 0px;
   }
-
+  .others-page li.nav-item:hover::after {
+    background-color: #f1f9ee;
+}
   li.nav-item::after {
       content: "";
       position: absolute;
@@ -290,6 +304,42 @@ a.navbar-brand img {
   ul.sub-menu li a:hover::after {
       width: 100%;
   }
+  .header-sticky a.nav-link {
+    color: #222;
+}
+
+.header-sticky li.nav-item:hover::after{
+    background-color: #f1f9ee;
+}
+
+.header-sticky a.nav-link.request-btn {
+    background: #222;
+    color: #fff;
+}
+
+.header-sticky a.nav-link.request-btn:hover {
+    background: #78ca5b;
+}
+
+.others-page a.nav-link {
+  color: #222;
+}
+
+.others-page img.white-logo {
+  display: none;
+}
+
+.others-page img.black-logo {
+  display: block;
+}
+.others-page a.nav-link.request-btn {
+  background: #222;
+  color: #fff;
+}
+
+.others-page a.nav-link.request-btn:hover {
+  background: #78ca5b;
+}
 }
 
 a.nav-link.request-btn {
@@ -452,10 +502,11 @@ p.small-heading {
 section.cta-area {
   padding-top: 100px;
   background: rgb(250, 250, 251);
+  padding-bottom: 40px;
 }
 
 .cta-right {
-  padding-bottom: 50px;
+  padding-bottom: 0;
 }
 
 a.custom-btn.black {
@@ -492,7 +543,7 @@ a.custom-btn.black i {
 .service-card {
   border-radius: 32px 0px 0px;
   margin-top: 70px;
-  margin-bottom: 24px;
+  margin-bottom: 75px;
   background: rgb(255, 255, 255);
   box-shadow: rgba(27, 26, 26, 0.1) 0px 5px 83px 0px !important;
 }
@@ -554,6 +605,8 @@ ul.slick-dots {
   justify-content: center;
   width: 100%;
   gap: 4px;
+  top: -40px;
+  position: relative;
 }
 
 ul.slick-dots li button {
@@ -605,7 +658,7 @@ ul.slick-dots li {
 }
 
 section.pops-area {
-  padding-top: 120px;
+  padding-top: 100px;
   position: relative;
   z-index: 1;
 }
@@ -635,6 +688,8 @@ section.pops-area {
   background: transparent;
   border: 2px solid #fff;
   color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .pops-button-group .custom-btn:hover {
@@ -1327,4 +1382,54 @@ ul.social-link li:hover a {
   background: #78ca5b;
   border-color: #78ca5b;
   color: #fff;
+}
+.others-page {
+  padding-top: 146px;
+}
+
+.sidebar {
+  box-shadow: 0px 5px 83px 0px rgb(27 26 26 / 10%) !important;
+  border-radius: 32px 0 0 0;
+  padding: 32px;
+  background: #fff;
+  margin-right: 29px;
+}
+.sidebar h4 {
+  background: #a21d13;
+  text-align: center;
+  color: #fff;
+  padding: 8px 8px;
+  border-radius: 4px;
+}
+
+.form {
+  margin-top: -8px;
+}
+.content-side h1 {
+  font-size: 32px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+main {
+  margin-bottom: 24px;
+}
+ul.list-disc li {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 24px;
+  color: #9b9b9b;
+  position: relative;
+  padding-left: 16px;
+}
+
+ul.list-disc li:before {content: "";width: 5px;height: 5px;background: #9b9b9b;position: absolute;top: 10px;left: 0px;border-radius: 50%;}
+ol.order-list {
+  padding-left: 16px;
+}
+
+ol.order-list li {
+  list-style: decimal;
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: #9b9b9b;
 }
