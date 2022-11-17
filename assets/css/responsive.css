@@ -60,7 +60,9 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    
+    .sidebar {
+        margin-right: 0px;
+    }
     .others-page img.white-logo {
         display: none;
     }
