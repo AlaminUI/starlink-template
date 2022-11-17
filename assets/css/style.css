@@ -545,7 +545,7 @@ a.custom-btn.black i {
   margin-top: 70px;
   margin-bottom: 75px;
   background: rgb(255, 255, 255);
-  box-shadow: rgba(27, 26, 26, 0.1) 0px 5px 83px 0px !important;
+  box-shadow: rgb(27 26 26 / 10%) 0px 5px 16px 0px !important;
 }
 
 .service-card-body {
