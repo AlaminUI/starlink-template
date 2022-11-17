@@ -63,6 +63,9 @@
     .sidebar {
         margin-right: 0px;
     }
+    main {
+        margin-bottom: 50px;
+    }
     .others-page img.white-logo {
         display: none;
     }
