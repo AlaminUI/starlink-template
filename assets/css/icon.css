@@ -1,7 +1,7 @@
 @font-face {
     font-family: charg;
-    src: url(https://demo.cmssuperheroes.com/themeforest/charg/wp-content/themes/charg/assets/fonts/font-theme/fonts/charg.eot?gxdzrf);
-    src: url(https://demo.cmssuperheroes.com/themeforest/charg/wp-content/themes/charg/assets/fonts/font-theme/fonts/charg.eot?gxdzrf#iefix)format('embedded-opentype'),url(https://demo.cmssuperheroes.com/themeforest/charg/wp-content/themes/charg/assets/fonts/font-theme/fonts/charg.ttf?gxdzrf)format('truetype'),url(https://demo.cmssuperheroes.com/themeforest/charg/wp-content/themes/charg/assets/fonts/font-theme/fonts/charg.woff?gxdzrf)format('woff'),url(https://demo.cmssuperheroes.com/themeforest/charg/wp-content/themes/charg/assets/fonts/font-theme/fonts/charg.svg?gxdzrf#charg)format('svg');
+    src: url(../webfonts/charg.eot?gxdzrf);
+    src: url(../webfonts/charg.eot?gxdzrf#iefix)format('embedded-opentype'),url(../webfonts/charg.ttf?gxdzrf)format('truetype'),url(../webfonts/font-theme/fonts/charg.woff?gxdzrf)format('woff'),url(../webfonts/font-theme/fonts/charg.svg?gxdzrf#charg)format('svg');
     font-weight: 400;
     font-style: normal;
     font-display: swap
