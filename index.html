@@ -11,7 +11,7 @@
 
 
   <!-- Site Title -->
-  <title>title_text</title>
+  <title>SPOKANE EV</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="assets/img/favicon.webp" type="image/x-icon">
@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- All CSS -->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="assets/css/icon.css">
@@ -85,10 +85,10 @@
     <div class="row">
       <div class="col-lg-8">
         <div class="banner-text">
-          <h1 class="text-white">Unique Solutions For Large & Small Charging Stations</h1>
-          <p>Our residential, commercial, and fast charging stations are widely compatible, built on open standards, and designed to be accessible for everyone.</p>
+          <h1 class="text-white" data-aos="fade-right" data-aos-duration="1000">Unique Solutions For Large & Small Charging Stations</h1>
+          <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Our residential, commercial, and fast charging stations are widely compatible, built on open standards, and designed to be accessible for everyone.</p>
 
-          <div class="banner-button-group">
+          <div class="banner-button-group" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="180">
             <a href="" class="custom-btn active">Explore Charging Solutions <i class="far fa-long-arrow-right"></i></a>
             <a href="" class="custom-btn">More About Us!</a>
           </div>
@@ -102,7 +102,7 @@
 
 
 <section class="cta-area">
-  <div class="container">
+  <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">
     <div class="row">
       <div class="col-lg-6 col-md-5">
         <div class="cta-left">
@@ -134,7 +134,7 @@
   </div>
 
 
-  <div class="container">
+  <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
     <div class="row service-cards-slider">
       
       <!-- single card  -->
@@ -206,7 +206,7 @@
 </section>
 
 
-<section class="pops-area">
+<section class="pops-area" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
 <div class="container">
   <div class="row">
     <div class=" col-lg-6 pr-lg-0">
@@ -221,8 +221,8 @@
         <p>Enjoy the convenience of charging at home without relying on the availability of public chargers. Our charging stations are safe and easy-to-use and let you hit the road fully charged, every time.
         </p>
         <div class="pops-button-group">
-          <a href="" class="custom-btn active"> Talk To An Expert <i class="far fa-long-arrow-right"></i></a>
-          <a href="" class="custom-btn">Become A Partner</a>
+          <a href="" class="custom-btn active"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300"> Talk To An Expert <i class="far fa-long-arrow-right"></i></a>
+          <a href="" class="custom-btn"  data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">Become A Partner</a>
         </div>
       </div>
     </div>
@@ -553,8 +553,15 @@
   <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
   <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    AOS.init({
+      once: true
+    });
+  </script>
+  
   <script>
     $('.service-cards-slider').slick({
   slidesToShow: 3,
